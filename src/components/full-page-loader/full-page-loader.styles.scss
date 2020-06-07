@@ -13,5 +13,12 @@
   z-index: 1000;
   text-align: center;
   position: absolute;
+  @media screen and (max-width: 870px) {
+    left: 27%;
+    @media (orientation: landscape) {
+      left: 37%;
+    }
+  }
+  
 }
 
