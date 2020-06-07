@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import ReactPaginate from 'react-paginate';
 import {createStructuredSelector} from 'reselect';
 
-import Products from './../../components/products/products.components';
+import Products from './../../components/products/products.component';
 import {handleOffsetAndCurrentPage} from './../../redux/data/data.actions';
 import {selectisFetching, selectpageCount} from '../../redux/data/data.selectors';
 

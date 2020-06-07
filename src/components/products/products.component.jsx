@@ -4,6 +4,7 @@ import {createStructuredSelector} from 'reselect';
 
 import {fetchProductsStartAsync} from './../../redux/data/data.actions';
 import ProductsItem from './../../components/products-item/products-item.component';
+import FullPageLoader from './../../components/full-page-loader/full-page-loader.component';
 import {
     selectproducts,
     selectsearchField,
@@ -31,6 +32,7 @@ const  Products = ({products,
   
   return (
       <div>
+          <FullPageLoader />
           <div className = 'products'>
           {
             pageProducts.map(({id, title, url}) => (
