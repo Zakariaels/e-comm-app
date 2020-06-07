@@ -1,0 +1,24 @@
+.header {
+    height: 70px;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 35px auto 35px auto;
+    align-items: center;
+
+    .logo-container {
+      padding: 10px 10px;;
+      .logo {
+        margin: 0 auto;
+      }
+    }
+
+    .cart-icon-container {
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+
+    .search-box {
+      margin: 0 auto;
+    }
+  }
