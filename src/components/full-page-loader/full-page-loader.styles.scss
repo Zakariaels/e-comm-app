@@ -1,0 +1,17 @@
+.loader-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #F8F8F8AD;
+}
+.loader{
+  left: 42%;
+  top: 30%;
+  z-index: 1000;
+  text-align: center;
+  position: absolute;
+}
+
