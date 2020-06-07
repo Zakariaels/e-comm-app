@@ -1,0 +1,8 @@
+.products {
+    min-height: 150px;
+    width: 80vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
